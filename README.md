@@ -6,29 +6,8 @@ The **Unscripted Language Pack** provides language support for both the Simple C
 
 ### NadiaVM
 
-```nvm
-cast offset 10
-cast start 8
-set constant offset
-set constant start
-add
-mult
-set constant 9
-sub
-neg
-```
+![NadiaVM example](https://github.com/UnscriptedVN/langpack/blob/root/example1.png)
 
 ### Simple Changes
 
-```changes
-/*
-    Project Scotia Changelog
-    This file provides the changelog for Project Scotia.
-*/
-
-[v1.0.1]
-- Fixes a bug where System32 caused a crash when being deleted.
-
-[v1.0.0]
-- Initial release.
-```
+![Simple Changes Example](https://github.com/UnscriptedVN/langpack/blob/root/example2.png)
