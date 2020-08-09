@@ -1,0 +1,10 @@
+/*
+    Project Scotia Changelog
+    This file provides the changelog for Project Scotia.
+*/
+
+[v1.0.1]
+- Fixes a bug where System32 caused a crash when being deleted.
+
+[v1.0.0]
+- Initial release.

@@ -1,0 +1,9 @@
+cast offset 10
+cast start 8
+set constant offset
+set constant start
+add
+mult
+set constant 9
+sub
+neg

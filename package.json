@@ -1,0 +1,60 @@
+{
+  "name": "uvn-lang-pack",
+  "displayName": "Unscripted Language Pack",
+  "description": "Language support for NadiaVM virtual machine language and the SimpleChanges format",
+  "publisher": "marquiskurt",
+  "author": "Marquis Kurt <software@marquiskurt.net>",
+  "version": "0.1.0",
+  "preview": true,
+  "icon": "icon.png",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UnscriptedVN/langpack/tree/root/"
+  },
+  "engines": {
+    "vscode": "^1.42.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "nvm",
+        "aliases": [
+          "NadiaVM",
+          "nvm"
+        ],
+        "extensions": [
+          ".nvm"
+        ],
+        "configuration": "./nvm-language-configuration.json"
+      },
+      {
+        "id": "changes",
+        "aliases": [
+          "Simple Changes",
+          "changes"
+        ],
+        "extensions": [
+          ".changes"
+        ],
+        "configuration": "./changes-language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "nvm",
+        "scopeName": "source.nvm",
+        "path": "./syntaxes/nvm.tmLanguage.json"
+      },
+      {
+        "language": "changes",
+        "scopeName": "source.changes",
+        "path": "./syntaxes/changes.tmLanguage.json"
+      }
+    ]
+  }
+}

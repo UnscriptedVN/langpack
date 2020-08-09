@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "NadiaVM",
+  "patterns": [
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#storage"
+    },
+    {
+      "include": "#specials"
+    }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "entity.name.function.nvm",
+          "match": "\\b(add|sub|mult|neg|div|collect|exit)\\b"
+        }
+      ]
+    },
+    "storage": {
+      "patterns": [
+        {
+          "name": "constant.numeric.nvm",
+          "match": "\\b([0-9])+\\b"
+        },
+        {
+          "name": "keyword.other.nvm",
+          "match": "\\b(True|False|None)\\b"
+        },
+        {
+          "name": "constant.language.nvm",
+          "match": "\\b(player|constant)\\b"
+        }
+      ]
+    },
+    "specials": {
+      "patterns": [
+        {
+          "begin": "(bind|set|alloc|push|pop|cast)\\s+(\\w+)",
+          "end": "\\s+",
+          "beginCaptures": {
+            "1": {
+              "name": "entity.name.function.nvm"
+            },
+            "2": {
+              "name": "variable.parameter.nvm"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "scopeName": "source.nvm"
+}
