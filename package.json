@@ -4,7 +4,7 @@
   "description": "Language support for NadiaVM virtual machine language and the SimpleChanges format",
   "publisher": "marquiskurt",
   "author": "Marquis Kurt <software@marquiskurt.net>",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "preview": true,
   "icon": "icon.png",
   "license": "SEE LICENSE IN LICENSE.txt",
