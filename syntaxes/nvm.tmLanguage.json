@@ -34,6 +34,11 @@
         {
           "name": "constant.language.nvm",
           "match": "\\b(player|constant)\\b"
+        },
+        {
+          "name": "string.quoted.double.nvm",
+          "begin": "\\\"",
+          "end": "\\\""
         }
       ]
     },
@@ -50,6 +55,11 @@
               "name": "variable.parameter.nvm"
             }
           }
+        },
+        {
+          "name": "comment.line.nvm",
+          "begin": ";",
+          "end": "\\n"
         }
       ]
     }

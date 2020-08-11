@@ -3,5 +3,8 @@
     The following file tracks the changes to the Unscripted Language Pack.
 */
 
+[v1.1.0]
+- Updates language features for NadiaVM.
+
 [v1.0.0]
 - Initial release.

@@ -6,8 +6,8 @@ The **Unscripted Language Pack** provides language support for both the Simple C
 
 ### NadiaVM
 
-![NadiaVM example](https://github.com/UnscriptedVN/langpack/blob/root/example1.png)
+![NadiaVM example](https://github.com/UnscriptedVN/langpack/blob/root/example2.png?raw=true)
 
 ### Simple Changes
 
-![Simple Changes Example](https://github.com/UnscriptedVN/langpack/blob/root/example2.png)
+![Simple Changes Example](https://github.com/UnscriptedVN/langpack/blob/root/example1.png?raw=true)
