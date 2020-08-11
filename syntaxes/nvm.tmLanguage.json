@@ -3,10 +3,10 @@
   "name": "NadiaVM",
   "patterns": [
     {
-      "include": "#keywords"
+      "include": "#storage"
     },
     {
-      "include": "#storage"
+      "include": "#keywords"
     },
     {
       "include": "#specials"
@@ -32,7 +32,7 @@
           "match": "\\b(True|False|None)\\b"
         },
         {
-          "name": "constant.language.nvm",
+          "name": "keyword.other.nvm",
           "match": "\\b(player|constant)\\b"
         },
         {

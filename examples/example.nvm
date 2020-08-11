@@ -1,9 +1,12 @@
-cast offset 10
-cast start 8
-set constant offset
+; Example NadiaVM File
+; (C) 2020 Marquis Kurt.
+;
+cast start 10
+cast offset 8
 set constant start
+set constant offset
 add
-mult
-set constant 9
-sub
 neg
+set offset 20
+set constant offset
+mult

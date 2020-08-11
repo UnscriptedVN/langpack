@@ -5,6 +5,7 @@
 
 [v1.0.1]
 - Fixes a bug where System32 caused a crash when being deleted.
+- Updates flight manuals to latest documentation.
 
 [v1.0.0]
 - Initial release.
