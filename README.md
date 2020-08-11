@@ -2,6 +2,10 @@
 
 The **Unscripted Language Pack** provides language support for both the Simple Changes changelog format and the NadiaVM virtual machine language, two in-house languages used in [Unscripted](https://unscripted.marquiskurt.net), a visual novel about software development.
 
+## Changelog
+
+- [Read the Changelog here](https://github.com/UnscriptedVN/langpack/blob/root/CHANGELOG.changes)
+
 ## Usage and Syntax
 
 - [NadiaVM language](https://fira.marquiskurt.net/implementation.html#commands)
